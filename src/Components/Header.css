@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+
+.main{
+    background-color: yellow;
+    height: 55px;
+    width: 1350px;
+}
+
+.blink{
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
